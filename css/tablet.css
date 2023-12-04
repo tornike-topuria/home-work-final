@@ -1,0 +1,153 @@
+@media( max-width: 758px){
+    /* footer  */
+        footer{
+            gap: 59px;
+        }
+    
+    /* about section  */
+    article{
+        width: 100%;
+    }
+ }
+ @media( max-width: 731px){
+    .about_section2_h{
+    font-size: 16px;
+    line-height: 24px; 
+    }
+    .about_section2_divsection1{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+ }
+@media( max-width: 707px){
+    header{
+        gap: 101px;
+    }
+    footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    .footer_h5{
+        display: none;
+    }
+    .footer_button_div{
+        display: flex;
+        column-gap: 24px;
+    }
+    .section2{
+        width: 100%;
+        height: 476px;
+        padding: 64px 48px;
+    }
+.section3{
+    padding:64px 20px ;
+}
+.section4{
+    width: 100%;
+    height: 320px;
+    flex-shrink: 0;
+    background-position: center;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.section4_form{
+width: 346px;
+height: 56px;
+padding: 19px 20px 18px 16px;
+
+}
+/* about section 1 */
+.about_section1{
+    width: 100%;
+    padding: 136px 36px;
+}
+ .about_section1_form{
+    width: 392px;
+    gap: 59px; 
+ }
+
+.about_section1_input{
+    width: 100%;
+    gap: 59px;
+}
+}
+@media( max-width: 600px){
+    /* contactsection 1 */
+    .contact_section1_div{
+        width: 432px;
+        height: 400px;
+        padding: 24px 20px;   
+    }
+    .input1{
+        width: 100%;
+        padding: 11px 86px 12px 8px;
+    }
+    .input3{
+        width: 100%;
+        padding: 12px 116px 11px 8px;
+    }
+    /* contact section 2 */
+    .map{
+        width: 100%;
+        height: 320px;
+    }
+    /* abaut section 1  */
+    .about_section1_h{
+font-size: 32px;
+line-height: normal;
+    }
+}
+
+@media( max-width: 498px){
+    header{
+    padding: 9px 20px;
+    gap: 30px;
+    }
+    .section1_h{
+font-size: 32px;
+line-height: 40px;
+    }
+    .section2{
+        gap: 10px;
+    }
+    .section2_main_div{
+        gap: 10px;
+    }
+    .section_div1{
+        gap: 10px;
+    }
+    .hover_img{
+        width: 155px;
+        height: 135px;
+    }
+    .section3_main_h{
+    font-size: 32px;
+    line-height: 40px; 
+    }
+    .section4_h{
+    font-size: 30px;
+    line-height: 35px;
+    }
+  .section4_input{
+width: 216px;
+padding: 19px 93px 18px 16px;
+
+  }  
+  .section4_button{
+padding: 16px 20px 16px 21px;
+  } 
+  /* about section 1  */
+  .about_section1{
+    margin-top: 80px;
+}
+/* about section 2  */
+  .number_ul_li_a{
+    width: 40px;
+    height: 40px;
+  }
+}
